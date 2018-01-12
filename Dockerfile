@@ -21,5 +21,5 @@ RUN cd /opt/ \
     && mv cerebro-${CEREBRO_VERSION} cerebro
 
 WORKDIR /opt/cerebro
-EXPOSE 9000
+EXPOSE 8080
 CMD ["./bin/cerebro"]
