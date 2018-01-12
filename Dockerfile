@@ -22,4 +22,4 @@ RUN cd /opt/ \
 
 WORKDIR /opt/cerebro
 EXPOSE 8080
-CMD ["./bin/cerebro -Dhttp.port=8080"]
+CMD ["./bin/cerebro", "-Dhttp.port=8080"]
